@@ -1,0 +1,335 @@
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.bloque-contenedor{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+
+}
+
+    .contenedor{
+        display: grid;
+        grid-template-columns: .5fr 1fr;
+    }
+
+    .imagen{
+        margin: 0 auto;
+        margin-top: -17rem;
+    }
+
+    .imagen img{
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;;
+    }
+
+    .texto{
+        margin-top: -13rem;
+    }
+
+    .texto h1{
+        color: #d0826f;
+        font-family: Montserrat,sans-serif;
+        font-size: 40px;
+        letter-spacing: 4pt;
+    }
+
+
+    .texto h3{
+        color: #d0826f;
+        font-family: 'Montserrat',sans-serif;
+        font-size: 20px;
+        font-weight: 100;
+        letter-spacing: 3pt;
+    }
+
+    .datos-perfil{
+        background-color: #dfe0e0;
+        margin-top: -.3rem;
+        max-width: 91.8%;
+    }
+
+    .perfil{
+        font-family: 'Montserrat',sans-serif;
+        letter-spacing: 2.5pt;
+        padding: 0 0 0 1rem;
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    .parrafo {
+        max-width: 250px;
+        padding: 0 0 0 1rem;
+        font-family: 'Nunito', sans-serif;
+        font-weight: 500;
+        font-size: 15px;
+        letter-spacing: 1pt;
+    }
+
+    .contacto{
+        margin-top: 10rem;
+        font-family: 'Montserrat',sans-serif;
+        letter-spacing: 2.5pt;
+        padding: 0 0 0 1rem;
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    .datos-contacto{
+        font-family: 'Nunito', sans-serif;
+        font-size: 12px;
+        letter-spacing: 1pt;
+        font-weight: 600;
+    }
+    
+    
+    .social{
+        margin: 5rem 0 5rem 0;
+        font-family: 'Montserrat',sans-serif;
+        letter-spacing: 2.5pt;
+        padding: 0 0 0 1rem;
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    .datos-social{
+        font-family: 'Nunito', sans-serif;
+        font-size: 12px;
+        letter-spacing: 1pt;
+        font-weight: 600;
+    }
+
+    .linea{
+        margin-top: .8rem;
+        background-color: #dfe0e0;
+        height: 9px;
+        width: 80%;
+    }
+    
+    .educacion{
+        font-family: 'Montserrat',sans-serif;
+        letter-spacing: 1.5pt;
+        margin-top: 0.5rem;
+        padding: 0 0 0 1rem;
+        color:#d0826f;
+        font-size: 14px;
+        max-width: 70%;
+
+    }
+
+    .educacion h5{
+        color: #000;
+        font-weight: 600;
+        letter-spacing: 1pt;
+        font-size: 13px;
+        font-family: 'Nunito', sans-serif;
+    }
+    .educacion p{
+        color: #000;
+        font-weight: 600;
+        letter-spacing: 1pt;
+        font-size: 12px;
+        font-family: 'Nunito', sans-serif;
+
+    }
+
+    .cursos{
+        font-family: 'Montserrat',sans-serif;
+        letter-spacing: 1.5pt;
+        margin-top: 0.5rem;
+        padding: 0 0 0 1rem;
+        color:#d0826f;
+        font-size: 14px;
+        max-width: 70%;
+    }
+
+    .cursos h5{
+        color: #000;
+        font-weight: 600;
+        letter-spacing: 1pt;
+        font-size: 13px;
+        font-family: 'Nunito', sans-serif;
+        margin-bottom: 1rem;
+    }
+    .cursos p{
+        color: #000;
+        font-weight: 600;
+        letter-spacing: 1pt;
+        font-size: 12px;
+        font-family: 'Nunito', sans-serif;
+        margin-top:-.5rem;
+        padding: 0 0 0 .8rem;
+    }
+    .cursos li{
+        color: #000;
+        font-weight: 600;
+        letter-spacing: 1pt;
+        font-size: 12px;
+        font-family: 'Nunito', sans-serif;
+    }
+
+
+    .idioma{
+        font-family: 'Montserrat',sans-serif;
+        letter-spacing: 1.5pt;
+        margin-top: 0.5rem;
+        padding: 0 0 0 1rem;
+        color:#d0826f;
+        font-size: 14px;
+        max-width: 70%;
+    }
+
+    .idioma p{
+        color: #000;
+        font-weight: 600;
+        letter-spacing: 1pt;
+        font-size: 13px;
+        font-family: 'Nunito', sans-serif;
+        margin-bottom: 1rem;
+    }
+
+    .proyectos{
+        font-family: 'Montserrat',sans-serif;
+        letter-spacing: 1.5pt;
+        margin-top: 0.5rem;
+        padding: 0 0 0 1rem;
+        color:#d0826f;
+        font-size: 14px;
+        max-width: 70%;
+    }
+
+    .proyectos p{
+        color: #000;
+        font-weight: 600;
+        letter-spacing: 1pt;
+        font-size: 13px;
+        font-family: 'Nunito', sans-serif;
+        margin-bottom: 2rem;
+        margin-top: 2rem;
+    }
+
+    .proyectos li{
+        color: #000;
+        font-weight: 600;
+        letter-spacing: 1pt;
+        font-size: 12px;
+        font-family: 'Nunito', sans-serif;
+        margin-top: .3rem;
+        list-style: square;
+    }
+
+
+
+@media (max-width:990px){
+    
+    .bloque-contenedor .imagen-fondo{
+        width: 100%;
+        height: 30rem;
+    }
+
+    .imagen img{
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;;
+    }
+
+    .datos-perfil{
+        max-width: 96.3%;
+    }
+}
+
+@media (min-width: 520px) and (max-width:778px){
+    .bloque-contenedor .imagen-fondo{
+        width: 100%;
+        height: 30rem;
+    }
+
+    .imagen img{
+        margin-top: 3rem;
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;;
+    }
+
+    .datos-perfil{
+        margin-top:-.4rem;
+        max-width: 96.5%;
+    }
+    
+}
+
+
+@media(max-width:520px){
+
+    
+    .container{
+        width: 122%;
+    }
+    .texto h1{
+        font-size: 18px;
+    }
+    .texto h3{
+        font-size: 12px;
+    }
+    .imagen-fondo{
+        width: 100%;
+    }
+
+    .imagen img{
+        margin-top: 3rem;
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;;
+    }
+
+    .datos-perfil{
+        margin-top:-.4rem;
+        max-width: 96.5%;
+    }
+    .perfil{
+        font-size: 10px;
+    }
+    .contacto{
+        margin-top: 20rem;
+    }
+    h1,h3,h5,p{
+        font-size: 10px;
+    }
+}
+
+
+
+@media  (max-width:343px){
+    .texto h1{
+        font-size: 14px;
+    }
+    .texto h3{
+        font-size: 12px;
+    }
+    .imagen-fondo{
+        width: 100%;
+    }
+
+    .imagen img{
+        margin-top: 3rem;
+        width: 90px;
+        height: 90px;
+        border-radius: 50%;;
+    }
+
+    .datos-perfil{
+        margin-top:-.4rem;
+    }
+    .perfil{
+        font-size: 10px;
+    }
+
+    .contacto{
+        margin-top: 30rem;
+    }
+    h1,h3,h5,p,li,a{
+        font-size: 6px;
+    }
+}
